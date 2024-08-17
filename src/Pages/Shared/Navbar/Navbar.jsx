@@ -53,7 +53,9 @@ const Navbar = () => {
             src={user}
           />
         </div>
-        <a className="btn btn-sm">Login</a>
+        <Link to="/login" className="btn btn-sm">
+          Login
+        </Link>
       </div>
     </div>
   );
